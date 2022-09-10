@@ -1,6 +1,7 @@
-Copyright (C) 2022 Prof. Cesar Henrique Comin, Department of Computer Science,
-Federal University of São Carlos, São Carlos, SP, Brazil
-chcomin@gmail.com
+Blood vessel quantification code for the accepted paper: Neonatal hyperoxia in mice impairs cerebrovascular function, neurogenesis, and behavior into adulthood, The Journal of Clinical Investigation.
+
+The repository contains a single zip file because there are many empty subfolders in the "data" folder, included for facilitating the use of the software.
+
 
 The software is organized as follows:
 
@@ -36,3 +37,7 @@ tifffile (2019.7.2)
 Czifile (2015.08.17)
 pillow (6.1.0)
 opencv (3.4.2)
+
+Copyright (C) 2022 Prof. Cesar Henrique Comin, Department of Computer Science,
+Federal University of São Carlos, São Carlos, SP, Brazil
+chcomin@gmail.com
