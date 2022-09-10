@@ -12,7 +12,7 @@ Folder "data" contains the images to be processed and results from the software.
 - Binary: contains the results of the blood vessel binarization step. Folder numpy has the results as numpy arrays
 - Skeleton: contains the results for the blood vessel skeletonization step
 - Network: contains the generated blood vessel networks. 'original' and 'simple' are intermediate steps results. The final network is saved in folder 'core'.
-- tests: hold the results for threshold testing
+- tests: holds the results for threshold testing
 - thresholds.txt: contains the parameters to be used in the adaptive thresholding method. See read_thresholds() in file process_images.py
 
 Folder "source" contains all the source code. File process_images.py is the main script for processing blood vessels, used for binarizing, calculating the skeleton and generating the network. File quantify.py measures the length and number of bifurcation points of blood vessels and file tortuosity.py calculates their tortuosity. File detect_neurons.py detects neurons and quantify their density as a function of the distance to the cortex surface.
@@ -25,18 +25,18 @@ An example batch folder is included in all data folders ("1 year"), but without 
 
 
 Requirements (version number):
-numpy (1.16.2)
-scipy (1.2.1)
-matplotlib (3.0.3)
-scikit-image (0.15.0)
-natsort (6.0.0)
-igraph (0.7.1)
-oiffile (2013.08.02)
-tifffile (2019.7.2)
-Czifile (2015.08.17)
-pillow (6.1.0)
-opencv (3.4.2)
+
+- numpy (1.16.2)
+- scipy (1.2.1)
+- matplotlib (3.0.3)
+- scikit-image (0.15.0)
+- natsort (6.0.0)
+- igraph (0.7.1)
+- oiffile (2013.08.02)
+- tifffile (2019.7.2)
+- Czifile (2015.08.17)
+- pillow (6.1.0)
+- opencv (3.4.2)
 
 Copyright (C) 2022 Prof. Cesar Henrique Comin, Department of Computer Science,
 Federal University of São Carlos, São Carlos, SP, Brazil
-chcomin@gmail.com
